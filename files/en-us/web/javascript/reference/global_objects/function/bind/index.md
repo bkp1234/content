@@ -111,7 +111,7 @@ module.getX();
 
 const retrieveX = module.getX;
 retrieveX();
-//  returns 9; the function gets invoked at the global scope
+//  returns undefined; the function gets invoked at the global scope
 
 //  Create a new function with 'this' bound to module
 //  New programmers might confuse the
